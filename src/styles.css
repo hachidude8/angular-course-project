@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+/* helpers */
+
+.w-25{ width: 25%; }
+.w-50{ width: 50%; }
+.w-75{ width: 75%; }
+
+.mx-h-50p{ max-height: 50px; }
+.mx-h-200p{ max-height: 200px; }
+
+.pointer { cursor: pointer; }
+.arrow { cursor: default; }
+.forbidden { cursor: not-allowed }

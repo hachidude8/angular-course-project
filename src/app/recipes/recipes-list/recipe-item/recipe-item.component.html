@@ -1,0 +1,16 @@
+<a  class="list-group-item list-group-item-action flex-column align-items-start pointer mb-1"
+  [routerLink] = "[index]"
+  routerLinkActive = "active">
+
+  <div class="d-flex w-100 justify-content-between">
+    <div>
+      <h5 class="mb-1">{{ recipe.name }}</h5>
+      <p class="mb-1">{{ recipe.description }}</p>
+    </div>
+
+    <div>
+      <img [src]="recipe.imagePath" alt="A recipe for {{ recipe.name }} - {{ recipe.description }}" class="img-fluid mx-h-50p">
+      <!-- You can use src = "{{ recipe.imagePath }}" as well -->
+    </div>
+  </div>
+</a>
